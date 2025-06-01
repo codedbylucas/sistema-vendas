@@ -26,7 +26,7 @@ if (!isset($_SESSION['usuario_id']) || $_SESSION['tipo'] !== 'admin') {
                 <li><a href="../usuario/listar.php"><i class="fas fa-user-cog" aria-hidden="true"></i> Funcionários</a></li>
                 <li><a href="../produto/listar.php"><i class="fas fa-box-open" aria-hidden="true"></i> Produtos</a></li>
                 <li><a href="../estoque/listar.php"><i class="fas fa-warehouse" aria-hidden="true"></i> Estoque</a></li>
-                <li><a href="../pedido/listar_todos.php"><i class="fas fa-file-invoice" aria-hidden="true"></i> Pedidos</a></li>
+                <li><a href="../pedido/listar_todos.php"><i class="fas fa-file-invoice" aria-hidden="true"></i> Pedidos </a></li>
                 <li><a href="../../controllers/LogoutController.php" class="logout"><i class="fas fa-sign-out-alt" aria-hidden="true"></i> Sair</a></li>
             </ul>
         </nav>
